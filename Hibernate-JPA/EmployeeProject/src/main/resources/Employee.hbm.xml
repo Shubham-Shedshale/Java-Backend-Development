@@ -1,0 +1,13 @@
+<hibernate-mapping>
+    <class name="org.jspy.assignment.Employee" table="emp">
+        <id name="id" column="empid">
+          <generator class="identity"/>
+        </id>
+        <property name="name" column="ename"/>
+        <property name="phone" column="phone"/>
+        <property name="designation" column="desig"/>
+        <property name="salary" column="sal"/>
+        <property name="password" column="pass"/>
+        
+    </class>
+</hibernate-mapping>
